@@ -42,8 +42,12 @@ class UniversityStudent:
         """    
         if not (book in library.books):
             raise ValueError("Book not found")
-        
 
+    def valid_borrowed_book_count(self):
+        # Checks if the number of borrowed books is greater than or equal to three  
+        if len(self.borrowed_books) >= 3:
+            raise ValueError("You can only borrow 3 books from the library")
+        
     def set_borrowed_books(self, book):
         # Add books to a list of borrowed books   
         self.borrowed_books.append(book)
