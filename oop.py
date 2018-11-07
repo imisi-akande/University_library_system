@@ -34,7 +34,7 @@ class UniversityStudent:
         Return student object whose name is *name* and matric number is 
         *matric_no*.
         """   
-        return "name: {} matric_no: {}".format(self.name, self.matric_no)
+        return "name: {} matric_no: {}".format(self.name, self.matric_no)    
 
     def check_book_in_library(self, library, book):
         """
@@ -42,6 +42,12 @@ class UniversityStudent:
         """    
         if not (book in library.books):
             raise ValueError("Book not found")
+
+    def valid_borrowed_book_count(self):
+        # Checks if the number of borrowed books is greater than or equal to three  
+        if len(self.borrowed_books) >= 3:
+            raise ValueError("You can only borrow 3 books from the library")
+        
 
     def set_borrowed_books(self, book):
         # Add books to a list of borrowed books   
@@ -97,7 +103,7 @@ class Library():
     Library have the following properties:
 
     Attributes:
-    name: A string representing the library name.
+    name: A string representing the library name. 
     library_type: A string representing the category of the library
     borrowed_books: A list of borrowed book(s)
     ref_no: An integer tracking the library reference number
