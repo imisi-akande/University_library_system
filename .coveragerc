@@ -1,0 +1,5 @@
+[report]
+omit =
+    */python3.6/*
+    */site-packages/nose/*
+    *__init__*

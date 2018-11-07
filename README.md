@@ -1,1 +1,5 @@
+[![Build Status](https://travis-ci.org/imisi-akande/university_library_system.svg?branch=development)](https://travis-ci.org/imisi-akande/university_library_system)
+[![Coverage Status](https://coveralls.io/repos/github/imisi-akande/university_library_system/badge.svg?branch=development)](https://coveralls.io/github/imisi-akande/university_library_system?branch=development)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/imisi-akande/university_library_system/badges/quality-score.png?b=development)](https://scrutinizer-ci.com/g/imisi-akande/university_library_system/?branch=development)
+[![Code Intelligence Status](https://scrutinizer-ci.com/g/imisi-akande/university_library_system/badges/code-intelligence.svg?b=development)](https://scrutinizer-ci.com/code-intelligence)
 # university_library_system
